@@ -1,6 +1,6 @@
 # GitLab Migration & Restoration Guide
 
-This documentation provides a comprehensive, technical walkthrough for installing and restoring a **self-managed GitLab instance** using Docker. This guide is specifically designed for environments requiring high-fidelity data restoration, such as the **NIC West Bengal Unified DevSecOps Platform**.
+This documentation provides a comprehensive, technical walkthrough for installing and restoring a **self-managed GitLab instance** using Docker. This guide is specifically designed for environments requiring high-fidelity data restoration, such as the **Unified DevSecOps Platform**.
 
 ---
 
@@ -143,6 +143,3 @@ docker compose exec web gitlab-ctl status
 * **Data Integrity:** Log in to `gitlab.wb.nic.in` to verify project repositories and issues.
 * **Authentication:** Verify the `initial_root_password` located in the `config` folder.
 
----
-
-**Would you like me to draft a companion shell script that automates this entire restoration process for your team?**

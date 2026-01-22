@@ -3,13 +3,13 @@ services:
   web:
     image: 'gitlab/gitlab-ce:latest'
     restart: always
-    hostname: 'gitlab.wb.nic.in'
+    hostname: 'gitlab.edu.in'
     #hostname: '0.0.0.0'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
-        external_url 'https://gitlab.wb.nic.in'
+        external_url 'https://gitlab.edu.in'
         #Add any other gitlab.rb configuration here, each on its own line
-        registry_external_url 'https://gitlab-master.wb.nic.in:5050'
+        registry_external_url 'https://gitlab-master.edu.in:5050'
     ports:
       - '80:80'
       - '443:443'

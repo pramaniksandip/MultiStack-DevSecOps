@@ -1,2 +1,6 @@
 # MultiStack-DevSecOps
-MultiStack-DevSecOps: A Unified Cloud-Native Platform for Secure and Scalable CI/CD Automation Across Diverse Technology Stacks
+Design and Evaluation of MultiStack-DevSecOps:
+A Unified DevSecOps-as-a-Service Platform for
+Secure, Policy-as-Code, Privacy-Preserving AI
+Diagnostics, Cloud-Native, Template-Driven
+Multi-Stack Scalable CI/CD Pipelines

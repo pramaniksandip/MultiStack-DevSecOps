@@ -1,0 +1,23 @@
+version: '3.6'
+services:
+  web:
+    image: 'gitlab/gitlab-ce:latest'
+    restart: always
+    hostname: 'gitlab.wb.nic.in'
+    #hostname: '0.0.0.0'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'https://gitlab.wb.nic.in'
+        #Add any other gitlab.rb configuration here, each on its own line
+        registry_external_url 'https://gitlab-master.wb.nic.in:5050'
+    ports:
+      - '80:80'
+      - '443:443'
+      - '222:22'
+      - '5050:5050'
+    volumes:
+      - '$GITLAB_HOME/config:/etc/gitlab'
+      - '$GITLAB_HOME/logs:/var/log/gitlab'
+      - '$GITLAB_HOME/data:/var/opt/gitlab'
+    shm_size: '256m'
+

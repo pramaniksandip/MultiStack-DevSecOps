@@ -10,7 +10,7 @@ Before commencing the restoration, ensure the host system satisfies these techni
 
 * **Operating System:** Linux-based server (e.g., AlmaLinux, CentOS, or Ubuntu).
 * **Container Engine:** Latest version of **Docker** and **Docker Compose** installed and running.
-* **Storage:** At least 10GB of free space to accommodate the Docker image (~3.6GB) and backup archives. And 16GB of space for backup required.
+* **Storage:** At least 4GB of free space to accommodate the Docker image (~3.6GB) and backup archives. And 16GB of space for backup required.
 * **Permissions:** Root or sudo access is mandatory for managing container lifecycles and file system permissions.
 * **Domain Name:** A valid domain name is required for accessing the service (e.g., gitlab.edu.in). Replace this value with your own domain name as applicable.
 

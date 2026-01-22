@@ -19,12 +19,16 @@ Before commencing the restoration, ensure the host system satisfies these techni
 
 Acquire the following components from the secure project storage (e.g., Google Drive):
 
-1. **GitLab Docker Image:** `gitlab_gitlab-ce_latest.tar`.
-2. **GitLab Backup File:** `1769020398_2026_01_21_18.0.2_gitlab_backup.tar`.
+1. **GitLab Docker Image:** [gitlab_gitlab-ce_latest.tar](https://drive.google.com/file/d/18VlFPe_JjluUBM8f8lbOFmPqPjxy67_z/view?usp=sharing) 
+2. **GitLab Backup File:** [1769020398_2026_01_21_18.0.2_gitlab_backup.tar](https://drive.google.com/file/d/1IwbwXD7ioql3S1Or-oDhuJcZfEfrAUPn/view?usp=sharing) 
 3. **Docker Compose File:** Standardized `docker-compose.yml`.
 4. **Configuration Archive:** Existing `config` folder containing `gitlab.rb` and `initial_root_password`.
 
+
+
+
 ---
+
 
 ## 🛠️ Step 2: Environment Setup
 
